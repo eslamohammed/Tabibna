@@ -1,16 +1,74 @@
-# tabibna
+# 🩺 Tabibna | طبيبنا
 
-A new Flutter project.
+**A Flutter application for managing doctor appointments and healthcare services.**
+**تطبيق Flutter لإدارة المواعيد الطبية وخدمات الرعاية الصحية.**
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Overview | نظرة عامة
 
-A few resources to get you started if this is your first Flutter project:
+**English:**
+Tabibna is a mobile application built with Flutter that helps patients find doctors, book appointments, and access clinic information easily and efficiently.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**عربي:**
+"طبيبنا" هو تطبيق موبايل مبني باستخدام Flutter، يساعد المرضى في العثور على الأطباء، حجز المواعيد، والوصول إلى معلومات العيادات بسهولة وكفاءة.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Technologies Used | التقنيات المستخدمة
+
+* **Flutter & Dart** – Cross-platform development | تطوير متعدد المنصات
+* **Firebase** – Authentication & database | التوثيق وقاعدة البيانات
+* **Google Maps API** – Clinic location | موقع العيادات
+* **Provider** – State management | إدارة الحالة
+
+---
+
+## 🚀 Installation | التثبيت
+
+**English:**
+
+1. Make sure Flutter is installed on your system.
+2. Clone the repository:
+
+   ```bash
+   git clone https://github.com/eslamohammed/Tabibna.git
+   ```
+3. Navigate to the project directory:
+
+   ```bash
+   cd Tabibna
+   ```
+4. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+5. Run the app:
+
+   ```bash
+   flutter run
+   ```
+---
+
+## 📷 Screenshots | لقطات شاشة
+
+> *
+---
+
+## 🤝 Contribution | المساهمة
+
+**English:**
+We welcome contributions! Feel free to fork the repository, create a new branch, and submit a pull request.
+
+**عربي:**
+نرحب بجميع المساهمات! يمكنك عمل Fork للمستودع، إنشاء فرع جديد، ثم إرسال Pull Request بالتعديلات.
+
+---
+
+## 📄 License | الرخصة
+
+This project is licensed under the [MIT License](LICENSE).
+هذا المشروع مرخص بموجب رخصة [MIT](LICENSE).
+
+---
