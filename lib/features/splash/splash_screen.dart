@@ -70,7 +70,7 @@ class _SplashViewState extends State<SplashView> {
           ),
           const SizedBox(height: 10),
           const Text(
-            'Find your doctor',
+            'Find your doctor and book an appointment',
             style: TextStyle(
               fontSize: 18,
               color: ColorManager.darkGrey, // Muted orange
