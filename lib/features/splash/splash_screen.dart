@@ -5,6 +5,7 @@ import 'package:rive/rive.dart';
 import '../../core/utils/assets_manger.dart';
 import '../../core/utils/color_manger.dart';
 import '../../core/utils/constans.dart';
+import '../../core/utils/style_manager.dart';
 import '../../routing/routes.dart';
 
 class SplashView extends StatefulWidget {
@@ -40,7 +41,7 @@ class _SplashViewState extends State<SplashView> {
       _artboard = artboard;
     });
 
-    Future.delayed(const Duration(milliseconds: Constants.splashDelay), () {
+    Future.delayed(const Duration(milliseconds: AppConstants.splashDelay), () {
       _navigateToHome();
     });
   }
@@ -59,22 +60,15 @@ class _SplashViewState extends State<SplashView> {
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Text(
-            "Welcome to\t" + Constants.appName,
-            style: TextStyle(
-              fontSize: 24,
-              fontWeight: FontWeight.bold,
-              color: ColorManager.deepBlue, // Muted orange
-            ),
+          Text(
+            "      Welcome to\t${AppConstants.appName}",
+            style: headline1.copyWith(color: Colors.black),
             textAlign: TextAlign.center,
           ),
-          const SizedBox(height: 10),
-          const Text(
-            'Find your doctor and book an appointment',
-            style: TextStyle(
-              fontSize: 18,
-              color: ColorManager.darkGrey, // Muted orange
-            ),
+          const SizedBox(height: 15),
+          Text(
+            '   Find your doctor and book an appointment...',
+            style: bodyText1.copyWith(color: ColorManager.grey),
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 20),

@@ -17,7 +17,7 @@ class TabibnaApp extends StatelessWidget {
       minTextAdapt: true,
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: Constants.appName,
+        title: AppConstants.appName,
         theme: ThemeData(
           useMaterial3: true,
           colorSchemeSeed: ColorManager.water,

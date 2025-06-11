@@ -3,7 +3,7 @@ import 'package:tabibna/features/splash/splash_screen.dart';
 import 'package:tabibna/routing/routes.dart';
 
 import '../features/login/ui/widget/login_screen.dart';
-import '../features/onboarding/onboarding_screen.dart';
+import '../features/onboarding/onboarding_view.dart';
 
 class AppRouter {
   static Route generateRoute(RouteSettings settings) {
@@ -11,7 +11,7 @@ class AppRouter {
       case Routes.splashRoute:
         return MaterialPageRoute(builder: (_) => SplashView());
       case Routes.onBoardingRoute:
-        return MaterialPageRoute(builder: (_) => OnboardingScreen());
+        return MaterialPageRoute(builder: (_) => OnBoardingView());
       case Routes.loginRoute:
         return MaterialPageRoute(builder: (_) => LoginScreen());
       default:
