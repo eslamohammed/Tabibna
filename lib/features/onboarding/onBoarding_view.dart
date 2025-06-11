@@ -193,8 +193,8 @@ class OnboardingPage extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
         ),
+        const SizedBox(height: AppSize.s20),
         Image.asset(onboardingSlider.imagePath),
-        const SizedBox(height: AppSize.s30),
         Padding(
           padding: const EdgeInsets.all(AppPadding.p16),
           child: Text(
